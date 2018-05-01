@@ -1,0 +1,48 @@
+.new-item-input {
+  border: none;
+  margin: 20px 0px;
+  padding: 0 0 0 8px;
+  width: 80%;
+  min-height: 40px;
+  height: 40px;
+}
+
+.add-item-button {
+  font-size: 14px;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 0;
+  min-height: 40px;
+  height: 40px;
+  width: 20%;
+  border: none;
+  color: #fff;
+  background-color: #8bc745;
+}
+
+.hero h1{
+  text-align: center;
+  font-size: 50px;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: #f2f2f2;
+}
+
+.hero {
+  height: 250px;
+  position: relative;
+}
+
+.hero img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-input{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 70%;
+}
